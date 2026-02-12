@@ -9,6 +9,7 @@ The model assumes that features are conditionally independent given the class la
 Although this assumption is “naive,” the algorithm performs surprisingly well in many real-world scenarios.
 
 To improve numerical stability, log probabilities are used during computation.
+
 Technologies Used
 Python 3.x
 NumPy
@@ -26,6 +27,9 @@ Confusion Matrix
 Classification Report
 
 The results demonstrate that Naive Bayes is effective and computationally efficient for this classification task.
+
+What I learnt:
+
 Understanding probabilistic machine learning models
 
 Applying Bayes’ Theorem in practice
@@ -35,6 +39,9 @@ Working with scikit-learn classifiers
 Evaluating model performance properly
 
 Handling numerical stability using log probabilities
+
+Future Improvements:
+
 Implement Naive Bayes from scratch (without scikit-learn)
 
 Compare performance with Logistic Regression
